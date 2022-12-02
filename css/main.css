@@ -62,6 +62,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 body{
   background-image: url("../images/pattern-background-desktop.svg");
+  background-color: var(--very-pale-blue);
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
@@ -70,12 +71,12 @@ body{
 }
 .card{
   background-color: white;
-  width: 400px;
+  max-width: 450px;
   text-align: center;
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 1px 8px 8px 3px var(--pale-blue);
-  
+  height: 650px;
 }
 h2{
   margin-top: 20px;
@@ -142,8 +143,7 @@ a:hover{
   cursor: pointer;
 }
 .container{
-  width: 300px;
-  margin: auto;
+  padding: 7%;
 }
 @media(max-width:767px){
   .card{
